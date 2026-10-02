@@ -1,0 +1,17 @@
+Кейс 3. MONITORING SERVICE
+Задание 11. Структура Monitoring Service
+Создайте:
+
+monitoring-service/
+├── config/
+├── logs/
+├── alerts/
+├── archive/
+└── scripts/
+
+Создайте:
+
+config/monitoring.conf
+logs/system.log
+alerts/alerts.log
+scripts/check.sh

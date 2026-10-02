@@ -1,0 +1,35 @@
+WEB APPLICATION
+Задание 1. Создание структуры Web Application
+Создайте рабочий каталог:
+web-app/
+├── app/
+├── config/
+├── logs/
+├── backup/
+└── scripts/
+Перейдите в созданный каталог.
+Создайте следующие файлы:
+app/main.py
+config/app.conf
+logs/application.log
+scripts/start.sh
+README.md
+После создания убедитесь, что все необходимые каталоги и файлы существуют.
+Результат: подготовлена файловая структура приложения.
+
+
+
+$ mkdir web_app
+$ cd  web_app
+$ mkdir app config logs backup scripts
+$ touch app/main.py config/app.conf logs/application.log scripts/start.sh README.md
+$ ls -l
+total 1
+drwxr-xr-x 1 al.alekseev 1049089   0 окт  2 13:39 app/
+drwxr-xr-x 1 al.alekseev 1049089   0 окт  2 13:38 backup/
+drwxr-xr-x 1 al.alekseev 1049089   0 окт  2 13:39 config/
+drwxr-xr-x 1 al.alekseev 1049089   0 окт  2 13:39 logs/
+-rw-r--r-- 1 al.alekseev 1049089   0 окт  2 13:39 README.md
+drwxr-xr-x 1 al.alekseev 1049089   0 окт  2 13:39 scripts/
+-rw-r--r-- 1 al.alekseev 1049089 667 окт  2 13:35 task1.txt
+drwxr-xr-x 1 al.alekseev 1049089   0 окт  2 13:38 web_app/
